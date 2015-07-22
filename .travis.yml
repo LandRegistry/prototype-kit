@@ -2,3 +2,11 @@ language: node_js
 node_js:
 - '0.11'
 - '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZNNoxGzaWIXqbza0UgCTTV9Q3EU3DQldPmTfDSuBl0FpbBMNk9ppdMTk+SfN0IAemXtUmJ8o9jzkKVt+K3+TlclpUU5Pt/HBl4wzWb9oir7t5OXNbZjTg5EUwTmfyShaaDDTBJs4ebituNFPVYYaJO5RXNCX8tnbxJ1JjCC26XXwsd3KgN+Ga8ArFp77OUuykKVxKj9RftEUnF4RPSdt6yxAZPskmIEKQwBdjZSdZReS3ghEVlCVT3HaoxM1VB0UAFh8MXGkMaySO9i5gXXzlaHO2RVzlouaodsvkIH7AAutcWmDovfSHAA8FC6XBoddDEIFa117mbuJKUjB66rzQJLw72ZvEMsoijMHCDHNedHigUxWEDfItYJIRlzdRSaRftfvEnQYqoEjCeV3iDsGetECDWvlK4DF8N+dZJPAeucT+JlyHokFnMWN0Tcdxpw6k6uLHSdkuXjmmjZWxfuJ8lvSepeer4qvfrd122T9s1YFT1hnkDXkg0JQ/ttPtfO021TYI6W6yQapTGYEhuM5ix7ZdBY4R3P1p/ef40a0749mt4FE6hrJaZFc/rAbHSbKmcY21T2tlfTsAfx5LdwIG4jRpGm2wJy73r1Yp3pLBu529E4ZZQ6lPJ8tMrCmdULgetjupWe2B2KaBfQlcRnSDuGyI8fI7xW5i3BcUUMe28o=
+  app: lr-prototype-kit
+  on:
+    repo: LandRegistry/prototype-kit
+    branch: master
