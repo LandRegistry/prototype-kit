@@ -1,2 +1,1 @@
-# proto
-express test
+# Land Registry Prototype Kit
