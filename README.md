@@ -6,5 +6,5 @@ git clone git@github.com:LandRegistry/prototype-kit.git
 cd prototype-kit
 npm install
 npm start
-
+http://localhost:3000/
 ```
